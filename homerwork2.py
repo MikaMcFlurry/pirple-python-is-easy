@@ -1,16 +1,20 @@
-def Genre():
-    print ("Metal")
+Band = "Rammstein"
+Genre = "Metal"
+Release = 2001
 
-def Artist():
-    print ("Rammstein")
+def genre():
+    print(Genre)
 
-def Releaseyear():
-    print ("2001")
+def artist():
+    print(Band)
+
+def releaseyear():
+    print(Release)
 
 def is_Rammstein_dead():
-    print(bool(False))
+    print(False)
 
-Genre()
-Artist()
-Releaseyear()
+genre()
+artist()
+releaseyear()
 is_Rammstein_dead()
