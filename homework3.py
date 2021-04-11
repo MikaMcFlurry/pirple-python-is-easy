@@ -1,9 +1,4 @@
-def equality_comparer (a, b, c):
-    return a == b or a == c or b == c 
+def string_integer_comparator (a, b, c):
+    return int (a) == int (b) or int (a) == int (c) or int (b) == int (c) 
 
-print(equality_comparer(1, 5, 1))
-
-def string_integer_comparer (a, b, c):
-    return a == b or a == c or b == c 
-
-print(string_integer_comparer(int ("1"), int (2), int ("3")))
+print(string_integer_comparator("1", 2, "3"))
