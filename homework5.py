@@ -1,5 +1,5 @@
 import math
-MAX_NUMBER = 100000
+MAX_NUMBER = 100
 
 
 def FizzBuzz_while():
