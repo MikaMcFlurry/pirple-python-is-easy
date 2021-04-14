@@ -89,8 +89,8 @@ def print_german_manual():
 
 def choose_language():
     global language
-    language = input("Type in english and press enter for the english manual.\n"
-                     "Type in german and press enter for the german manual.\n")
+    language = input("Choose one of following languages and confirm with enter:\n"
+                     "English or German\n")
     if language in languages[0:5]:
         print_english_manual()
     elif language in languages[6:11]:
